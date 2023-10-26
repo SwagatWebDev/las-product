@@ -1,0 +1,74 @@
+Lecture-1: Introduction to ReactJs
+---------------------------------------
+
+1. Now a days React is the most popular for making single page application. This is such a tool that is
+maintained by facebook. It is mostly demanded when it comes to job. It is very convenient to use.
+Before we move further let us discuss about Single Page Application.
+
+2. Single Page application ek asa web application hota hain ki jo ki ek bar load hoti hain and baki ka sara kam
+javascript karta hain. Chahe wo ek page se dusri page ki navigation ho.
+ye sare ki sare kaam bina page ko reload kiye seamlessly perform hote hain.
+
+3. React JS component pe aadhar hoti hain jo ki website ko tukodo pain todke banane ke parkria hoti hain.
+Ek component ko ham ek se jyada bar istemal kar sakte hain same website main.
+Or koi duri website main bhi kisi website ki component ko bohot hi asan se istemal kia jaa sakta hain. Means
+We can use the component more than once in the same website or a component of different website can be used
+in other website easily. This feature make React JS as very popular. Write once and use everywhere.
+
+4. React ki achi baat ye hoti hain ki React ek daam raw hoti hain or ek daam bare bones hoti hain. Agar apko
+Javascript sahi main aati hain then React ko sikhna ap logo ke liye hohot asan hoga. No need to learn lots of
+dependency based programing languages, no need to learn lots of file based structures. Directly ap React ki
+application easily banake start kar sakte ho.
+E.g: Existing Library like Axios module you can use HTTP inside react application only.
+
+5. Infact react ke andar Router bhi nehi hota hain. Router ka matlab ye ki bina page ko reload kiye ap ek se
+duri page main jana chahte hain to use case main apko Router alag se use karna padta hain. Ap yahan se kuch
+
+Let us understand the installation process of React JS.
+----------------------------------------------------------
+1. Download NodeJS. What is node js let us understand.
+NodeJS ek javascript ka runtime hain jo apki computer main javascript execute karne main madat karta hain.
+Once you install nodeJS then only you will able to run JavaScript without browser.
+Ham chate hain ki bina browser ham javascript ko run karen isliye hame nodejs ko install karna padega.
+
+2. Download an editor VS Code or IntelliJ Idea.
+
+3. Check your node version by -> node --version
+Check your NPM version by -> npm --version
+
+4. Search React Dev tool then add it to the Chrome browser extension
+Ye extension apke sare ke sare component ko easy load karta hain and visually show karte hain.
+Isme pata chata hain ki kya props apne bheja hua hain and kya state hain apke components ki
+We will deep dive each terms once we start deepen to the course.
+
+5. Install thunder client plugin for http request like your API calls
+
+6. ES7 React/Redux/GraphQL/React-Native snippet Extension you install
+This extension is used to write sortcuts like say imn it will import a module like that
+
+7. Install Bracket pair colorize. If you install call back and multiple bracket it help you to show in
+different color code. So that you can easily close it.
+
+8. Auto rename tag. Which is used to close the tags.
+
+9. install live servers. Koi bhi page ham directly run kar sakte hain usko liver server pain run kar sakte hain
+
+10. Prettier - Code formatter
+
+11. Emmet Plugin
+
+Now Let's Create our First React App.
+---------------------------------------
+1. In Google say create React App.
+
+What is NPM?
+NPM ek package manager hain. NodeJs ke andar packages install karne main NPM madat karta hain
+
+npm install -g create-react-app
+
+Ham yahan NPX use karenge. Why NPX
+
+NPX hame packages ko bina download kiye agar ap usko ek bar use karna chahte ho to npx use kar sakte ho.
+NPM - Create react App ko Kharid lete ho. Or ap usko ghar main rakh lete ho
+Unnecessary if you want not overload or utilize your storage you can use NPX
+NPX -
